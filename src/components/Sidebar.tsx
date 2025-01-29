@@ -1,6 +1,6 @@
 import React from "react";
 
-const nodeTypes = ["input", "default", "output"];
+const nodeTypes = ["Start", "Action", "Timer", "End"];
 
 const Sidebar: React.FC = () => {
   const onDragStart = (event: React.DragEvent, nodeType: string) => {
